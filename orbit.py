@@ -1,15 +1,15 @@
 import matplotlib.pyplot as plt
 import math
 
-#x and y positions in the orbit (cartesian)
+#x and y positions in the orbit (cartesian, meters)
 x = 6300000+2000000#float(input("how high "))
 y = 0
 
-#x and y speeds in the orbit
+#x and y speeds (m/s) in the orbit
 yspd = 7500#float(input("spd "))
 xspd = 0
 
-#starting time
+#starting time (s)
 t = 0
 
 ''' arrays to store values to graph at end
